@@ -81,6 +81,9 @@ prompt_end() {
   fi
   echo -n "%{%f%}"
   CURRENT_BG=''
+
+  # Adds the new line and ➜ as the start character.
+  echo -n '\n ➜';
 }
 
 ### Prompt components
